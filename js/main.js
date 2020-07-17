@@ -31,7 +31,7 @@
     var wScroll = $(this).scrollTop();
 
     // Back To Top Appear
-    wScroll > 700 ? $("#back-to-top").fadeIn() : $("#back-to-top").fadeOut();
+    // wScroll > 700 ? $("#back-to-top").fadeIn() : $("#back-to-top").fadeOut();
   });
   ///////////////////////////
   // Slick slider

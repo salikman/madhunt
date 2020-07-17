@@ -160,34 +160,60 @@
                         <span class="old">199 usd</span>
                         <span class="current">99 usd</span>
                     </div>
-                    <a class="backet" href="#">add to cart</a>
-                    <ul class="feature">
-                        <li>
-                            <span>Availability</span>: <span>In stock</span>
-                        </li>
-                        <li>
-                            <span>Product Code</span>: <span>#6002</span>
-                        </li>
-                        <li>
-                            <span>Material</span>: <span>plastic</span>
-                        </li>
-                        <li>
-                            <span>Series</span>: 
-                            <select>
-                                <option value="1">Classic</option>
-                                <option value="2">Eco</option>
-                                <option value="3">Flocked</option>
-                                <option value="4">Essential</option>
-                                <option value="5">Soft</option>
-                            </select>
-                        </li>
-                        <li>
-                            <span>Size</span>: <span>33x20x14 cm</span>
-                        </li>
-                        <li>
-                            <span>Weight</span>: <span>150g</span>
-                        </li>
-                    </ul>
+                    <form>
+                        <a class="backet" href="#">add to cart</a>
+                        <ul class="feature">
+                            <li>
+                                <span>Availability:</span><span>In stock</span>
+                            </li>
+                            <li>
+                                <span>Product Code:</span><span>#6002</span>
+                            </li>
+                            <li>
+                                <span>Material:</span><span>plastic</span>
+                            </li>
+                            <li>
+                                <span>Series:</span>
+                                <div class="select-box">
+                                    <div class="select-box__current" tabindex="1">
+                                        <div class="select-box__value">
+                                            <input class="select-box__input" type="radio" id="0" value="1" name="Ben" checked="checked" />
+                                            <p class="select-box__input-text">Classic</p>
+                                        </div>
+                                        <div class="select-box__value">
+                                            <input class="select-box__input" type="radio" id="1" value="2" name="Ben" checked="checked" />
+                                            <p class="select-box__input-text">Eco</p>
+                                        </div>
+                                        <div class="select-box__value">
+                                            <input class="select-box__input" type="radio" id="2" value="3" name="Ben" checked="checked" />
+                                            <p class="select-box__input-text">Flocked</p>
+                                        </div>
+                                        <div class="select-box__value">
+                                            <input class="select-box__input" type="radio" id="3" value="4" name="Ben" checked="checked" />
+                                            <p class="select-box__input-text">Essential</p>
+                                        </div>
+                                        <div class="select-box__value">
+                                            <input class="select-box__input" type="radio" id="4" value="5" name="Ben" checked="checked" />
+                                            <p class="select-box__input-text">Soft</p>
+                                        </div>
+                                    </div>
+                                    <ul class="select-box__list">
+                                        <li><label class="select-box__option" for="0" aria-hidden="aria-hidden">Classic</label></li>
+                                        <li><label class="select-box__option" for="1" aria-hidden="aria-hidden">Eco</label></li>
+                                        <li><label class="select-box__option" for="2" aria-hidden="aria-hidden">Flocked</label></li>
+                                        <li><label class="select-box__option" for="3" aria-hidden="aria-hidden">Essential</label></li>
+                                        <li><label class="select-box__option" for="4" aria-hidden="aria-hidden">Soft</label></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <span>Size:</span><span>33x20x14 cm</span>
+                            </li>
+                            <li>
+                                <span>Weight:</span><span>150g</span>
+                            </li>
+                        </ul>
+                    </form>
                     <div class="description">
                         <p>A universal series of stuffed mallards in one active pose in the size of a standard that is close to natural. Stuffed mallard is voluminous, hollow. The model is designed for installation on the water. These stuffed animals are made of high-quality waterproof plastic. Realistic multi-color painting with matte non-glare paint with detailed pen drawing. At the bottom of the stuffed animals, a weighted triangular keel with holes for attaching the cord, providing the stuffed animals  stability on the water. Stuffed</p>
                     </div>
@@ -294,13 +320,11 @@
                 <li><a href="#">Contact us</a></li>
                 <li><a href="#">Our history</a></li>
             </ul>
+            <div id="back-to-top"></div>
         </div>
     </div>
 </footer>
     <!-- /.Footer -->
-    <!-- Back to top -->
-    <div id="back-to-top"></div>
-    <!-- /Back to top -->
     <!-- Modal -->
     <div style="display: none;" id="popup-modal">
     <div class="wrap">
